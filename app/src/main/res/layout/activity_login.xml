@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정말 로그아웃하시겠습니까?"
+        android:id="@+id/authoutTextView"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디"
+        android:id="@+id/authIdEditView"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:id="@+id/authPasswordEditView"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="가입"
+        android:textStyle="bold"
+        android:id="@+id/signBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:backgroundTint="@color/darkblue"
+        android:text="로그인하기"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/loginBtn"
+        android:visibility="gone"
+        />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:backgroundTint="@color/darkblue"
+        android:text="로그아웃"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/logoutBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아직 계정이 없으신가요? >"
+        android:id="@+id/authMainTextView"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="회원가입"
+        android:textStyle="bold"
+        android:textColor="@color/darkblue"
+        android:id="@+id/goSignInBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="구글인증"
+        android:textStyle="bold"
+        android:textColor="@color/darkblue"
+        android:id="@+id/googleLoginBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="my_color">
+        <item>빨강</item>
+        <item>초록</item>
+        <item>파랑</item>
+    </string-array>
+
+    <string-array name="my_color_values">
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+    </string-array>
+
+    <string-array name="my_textsize">
+        <item>작게</item>
+        <item>중간</item>
+        <item>크게</item>
+    </string-array>
+
+    <string-array name="my_textsize_values">
+        <item>12.0f</item>
+        <item>16.0f</item>
+        <item>20.0f</item>
+    </string-array>
+</resources>

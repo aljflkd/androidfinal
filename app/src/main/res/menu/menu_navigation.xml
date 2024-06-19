@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_board"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="게시판" />
+
+    <item
+        android:id="@+id/item_mymenu"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:iconTint="@color/black"
+        android:title="내 메뉴" />
+
+    <item
+        android:id="@+id/menu_main_setting"
+        android:icon="@drawable/settings"
+        android:iconTint="@color/black"
+        android:title="설정"
+        />
+
+
+
+
+
+</menu>
